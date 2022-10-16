@@ -19,4 +19,6 @@ close.addEventListener("click", function () {
 backdrop.addEventListener("click", function () {
   backdrop.classList.add("hidden");
   nav.classList.toggle("hidden");
+  close.classList.toggle("hidden");
+  hamburger.classList.toggle("hidden");
 });
